@@ -1,91 +1,43 @@
-.Volvo{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    outline: 3px;
-    outline-style: solid;
+html{
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.SAAB{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    outline: 3px;
-    outline-style: solid;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  background-color: rgb(152, 150, 150);
 }
-.TESLA{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    outline: 3px;
-    outline-style: solid;
+
+img{
+/* padding: 1rem; */
+border-radius: 0.8rem;
 }
-div4{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    height: 150px;
-    width: 250px;
-    background-position: center;
-    background-size: 290px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), #fff2f21a), url("bilar/Merc.jpg");
-    outline: 3px;
-    outline-style: solid;
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  
 }
-.container1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+
+h3{
+  font-size: 1.7rem;
+  text-align: center;
 }
-div5{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    background-position: center;
-    background-size: 250px;
-    height: 150px;
-    width: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), #fff2f21a), url("bilar/EL.jpg");
-    outline: 3px;
-    outline-style: solid;
+
+button {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 1rem;
+  padding: 1rem;
 }
-div6{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    background-position: center;
-    background-size: 280px;
-    height: 150px;
-    width: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), #fff2f21a), url("Bilar/Aud.jpg");
-    outline: 3px;
-    outline-style: solid;
-}
-div7{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    background-position: center;
-    background-size: 250px;
-    height: 150px;
-    width: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), #fff2f21a), url("bilar/PEUG.jpg");
-    outline: 3px;
-    outline-style: solid;
-}
-div8{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    background-position: center;
-    background-size: 250px;
-    height: 150px;
-    width: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), #fff2f21a), url("Bilar/Volk.jpg");
-    outline: 3px;
-    outline-style: solid;
-}
+
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -98,10 +50,10 @@ div8{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.5rem 0.5rem;
   text-decoration: none;
-  font-size: 17px;
-    margin: 0;
+  font-size: 2rem;
+  margin: 0;
 }
 
 /* Change the color of links on hover */
@@ -115,42 +67,74 @@ div8{
   background-color: #333;
   color: rgb(255, 255, 255);
 }
-h1{
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
+
+.topnav input[type="text"] {
+  float: right;
+  padding: 6rem;
+  border: none;
+  margin-top: 8rem;
+  margin-right: 16rem;
+  font-size: 17rem;
 }
 
-button{
-    font-size: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin: 10px;
-    padding: 10px;
+.Search {
+  font-size: 1.5rem;
+  margin: 1rem;
+  width: 60rem;
+  border-radius: 1rem;
+  margin-left: 20rem;
+  justify-content: center;
+  margin-top: 0rem;
 }
-p{
-    margin: 0;
-    padding: 0px;
-    text-align: center;
-    font-size: 50px;
+
+.text{
+  font-size: 5.2rem;
+  margin-top: 0.2rem;
+
 }
-.topnav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+
+.Bil{
+  margin: 2rem;
+ display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
 }
-.container2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+
+.btn-car {
+  width: 15rem;
 }
-html, body{
-    padding: 0;
-    margin: 0;
-    background-color: rgb(83, 76, 83);
+
+.btn-car img {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 1.4rem;
+  border: .2rem solid;
+}
+.text{
+  font-size: 2.2rem;
+  color: white;
+}
+.List{
+    font-size: 1.4rem;
+    font-family: inherit;
+    font-weight: 500;
+    width: 25%;
+    min-height: 3.3rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #f3f3f3;
+    border-radius: .5rem;
+    margin: .5rem;
+}
+.container{
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.grid{
+  margin-left: 18rem;
 }

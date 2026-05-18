@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="src/styles/Bilar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/styles/Bilar.css">
 </head>
 <body>
         <div class="topnav">
@@ -16,32 +17,68 @@
   <a href="Kontakt.html">Kontakta oss</a>
   <a href="Tjänster.html">Tjänster</a>
 </div>
-<p>BilMärken</p>
-<div class="container2">
-    <ul class="horizontal-list" style="list-style: none;">
-<li><button>Volvo</button></li>
-<li><button>Saab</button></li>
-<li><button>Peugeot</button></li>
-<li><button>Audi</button></li>
-<li><button>Volkswagen</button></li>
-<li><button>Mercedes</button></li>
-</ul>
+<div class="container">
+<h1>Hitta en bil som passar dig</h1>
+<div class="Bil"> 
+    <div class="btn-car">
+         <a >
+            <img src="/Webbsida/src/styles/Bilar/Elbil.jpg" width="960px" height="660px"></a>
+            <p class="text">Elbilar</p>
+    </div>
+    
+    <div class="btn-car"><a >
+        <img src="/Webbsida/src/styles/Bilar/Sedan.jpg" width="960" height="660"></a>
+        <p class="text">Sedan</p></div>
+    
+    <div class="btn-car"><a >
+        <img src="/Webbsida/src/styles/Bilar/Transportbil.jpg" width="960" height="660"></a>
+        <p class="text">Transportbilar</p></div>
+    
+    <div class="btn-car"><a >
+        <img src="/Webbsida/src/styles/Bilar/Kombi.jpg" width="960" height="660"></a>
+        <p class="text">Kombi</p></div>
+    
+    <div class="btn-car"><a >
+        <img src="/Webbsida/src/styles/Bilar/Motorcykel.jpg" width="960" height="791"></a>
+        <p class="text">Motorcyklar</p></div>
 </div>
-<div class="container1">
-<div class="Volvo">
-    <img src="src/styles/Bilar/V740.jpg" style="width: 250px;">
+<input class="Search" type="text" placeholder="Sök på märke, modell">
+<!-- TODO fixa pilar från select elemnetet -->
+<div class="grid">
+<select class="List">
+    <option>Märke och modell</option>
+</select>
+    <select class="List">
+    <option>Miltal</option>
+    <option value="5000">5000</option>
+    <option value="10000">10.000</option>
+    <option value="20000">20.000</option>
+    <option value="30000">30.000</option>
+    <option value="40000">40.000</option>
+    <option value="50000">50.000</option>
+</select>
+<select class="List">
+    <option>Pris</option>
+</select>
+<select class="List">
+    <option>Modellår</option>
+</select>
+<select class="List">
+   <option>Drivmedel</option>
+</select>
+<select class="List">
+    <option>Biltyp</option>
+</select>
+<select class="List">
+    <option>Tillbehör</option>
+</select>
+<select class="List">
+    <option>Sittplatser</option>
+</select>
+<select class="List">
+    <option>Växellåda</option>
+</select>
 </div>
-<div2 class="SAAB">
-    <img src="src/styles/Bilar/SA.jpg" style="width: 250px;">
-</div2>
-<div3 class="TESLA">
-    <img src="src/styles/Bilar/TE.jpg" style="width: 250px;">
-</div3>
-<div4></div4>
-<div5></div5>
-<div6></div6>
-<div7></div7>
-<div8></div8>
 </div>
 </body>
 </html>
