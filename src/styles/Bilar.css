@@ -1,8 +1,9 @@
+/*Ändrar storleken på texten och ändrar till ett annat typsnitt*/
 html{
   font-size: 62.5%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+/*Gör så att självaste sidan blir finare*/
 html,
 body {
   padding: 0;
@@ -11,33 +12,21 @@ body {
 
   background-color: rgb(152, 150, 150);
 }
-
+/*Ändrar hur bilderna ska se ut*/
 img{
-/* padding: 1rem; */
 border-radius: 0.8rem;
 }
-
+/*Gör så att texten blir större och gör så att den lägger sig i mitten*/
 h1 {
+  font-size: 3rem;
   text-align: center;
-  font-size: 5rem;
-  
 }
-
+/*Gör så att texten blir större och gör så att den lägger sig i mitten*/
 h3{
   font-size: 1.7rem;
   text-align: center;
 }
-
-button {
-  font-size: 3rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin: 1rem;
-  padding: 1rem;
-}
-
-
+/*Ändrar färg på nav baren och sätter den på toppen av sidan*/
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -45,7 +34,7 @@ button {
   position: sticky;
 }
 
-/* Style the links inside the navigation bar */
+/* Ger en annan stil till nav baren */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -56,27 +45,12 @@ button {
   margin: 0;
 }
 
-/* Change the color of links on hover */
+/* ändrar färgen när man har musen över länkarna */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #333;
-  color: rgb(255, 255, 255);
-}
-
-.topnav input[type="text"] {
-  float: right;
-  padding: 6rem;
-  border: none;
-  margin-top: 8rem;
-  margin-right: 16rem;
-  font-size: 17rem;
-}
-
+/*Ändrar stilen på sökfältet och storleken*/
 .Search {
   font-size: 1.5rem;
   margin: 1rem;
@@ -86,13 +60,12 @@ button {
   justify-content: center;
   margin-top: 0rem;
 }
-
+/*Gör texten större*/
 .text{
   font-size: 5.2rem;
   margin-top: 0.2rem;
-
 }
-
+/*Ändrar hur bilderna ligger på sidan*/
 .Bil{
   margin: 2rem;
  display: grid;
@@ -104,21 +77,19 @@ button {
   height: 10%;
   justify-content: center;
 }
-
-.btn-car {
-  width: 15rem;
-}
-
+/*Gör bilderna lite finare*/
 .btn-car img {
   width: 17rem;
   height: 17rem;
   border-radius: 1.4rem;
   border: .2rem solid;
 }
+/*Byter färg och storlek på text till bilderna*/
 .text{
   font-size: 2.2rem;
   color: white;
 }
+/*Gör så att listorna blir finare*/
 .List{
     font-size: 1.4rem;
     font-family: inherit;
@@ -131,10 +102,12 @@ button {
     border-radius: .5rem;
     margin: .5rem;
 }
+/*trycker ihop bilderna så att det inte är så mycket rum mellan dom*/
 .container{
   max-width: 100rem;
   margin: 0 auto;
 }
+/*Gör så att listorna är i mitten av sidan*/
 .grid{
   margin-left: 18rem;
 }
